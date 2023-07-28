@@ -1,0 +1,98 @@
+/* Fondo con varios colores posibles */
+body {
+  background-color: #fddfdf; /* Color de fondo predeterminado */
+}
+
+/* Cambia el fondo en función de un número específico (del 1 al 7) */
+body.color-1 {
+  background-color: #fddfdf; /* Color 1 */
+}
+
+body.color-2 {
+  background-color: #c7e9c0; /* Color 2 */
+}
+
+body.color-3 {
+  background-color: #a1d99b; /* Color 3 */
+}
+
+body.color-4 {
+  background-color: #74c476; /* Color 4 */
+}
+
+body.color-5 {
+  background-color: #41ab5d; /* Color 5 */
+}
+
+body.color-6 {
+  background-color: #238b45; /* Color 6 */
+}
+
+body.color-7 {
+  background-color: #005a32; /* Color 7 */
+}
+
+/* Estilos para los botones */
+/* Estilo predeterminado para los botones */
+.btn {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilo para el botón primario (usado para enviar formularios, etc.) */
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para el botón secundario (usado para acciones secundarias) */
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #555f64;
+}
+
+/* Estilo para el botón de éxito (usado para operaciones exitosas) */
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-success:hover {
+  background-color: #1d923b;
+}
+
+/* Estilo para el botón de peligro (usado para advertencias o acciones peligrosas) */
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background-color: #b6202d;
+}
+
+/* Estilo para el enlace de registro */
+.registro-link {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 2px solid #fff; /* Color del borde en tono blanco */
+  border-radius: 5px; /* Para darle bordes redondeados al recuadro */
+  color: #fff; /* Color del texto en tono blanco */
+  text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+}
+
+/* Estilo al pasar el mouse sobre el enlace */
+.registro-link:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Color de fondo con transparencia para resaltar al pasar el mouse */
+}
